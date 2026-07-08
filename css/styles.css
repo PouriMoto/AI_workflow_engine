@@ -292,3 +292,20 @@ code.inline{background:var(--bg-hover);padding:2px 6px;border-radius:5px;font-fa
   .sidebar{width:100%;flex-direction:row;overflow-x:auto;border-right:none;border-bottom:1px solid var(--border-soft)}
   .field-2col{grid-template-columns:1fr}
 }
+/* ════════════════════════════════════
+   Share Card Preview — اضافه شده برای buildShareCard جدید
+   این بلاک را به انتهای assets/css/components.css اضافه کن
+   ════════════════════════════════════ */
+.share-card-preview-wrap {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 14px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.share-card-preview-wrap canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
